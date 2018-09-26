@@ -1,188 +1,117 @@
 <!DOCTYPE html>
-<html>
-
+<html xmlns="http://www.w3.org/1999/xhtml">
 <head>
-<style>
-body {
-    background-image: url("b.jpg");
-    background-repeat: no-repeat;
-    background-size:cover;
-}
+<title></title>
 
-a:link {
-    color: maroon;
-    background-color: transparent;
-    text-decoration: none;
-}
-a:visited {
-    color: maroon;
-    background-color: transparent;
-    text-decoration: none;
-}
-a:hover {
-    color: tomato;
-    background-color: transparent;
-    text-decoration: underline;
-}
-a:active {
-    color: yellow;
-    background-color: transparent;
-    text-decoration: underline;
-}
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-address { 
-    display: block;
-    font-style: italic;
-} 
-
-</style>
 </head>
 
-
-    <div id="header">
-    <center>
-             <img src="g2.gif" width="100%" height="220" alt="logo" />
-             </center>
-    </div> 
-<h1 style="text-align:center;"><strong>
-<FONT COLOR=#800000><U>CRYSTAL ADVANCED ANALYTICS</U></FONT></h1></h1></strong>
-<div id="wrapperHeader">
-
-</div>
-<br>
-<br>
-<br>
-<br>
-
-
-
-<style type="text/css">
-.tg  {border-collapse:collapse;border-spacing:0;border-color:#ccc;border:none;}
-.tg td{font-family:Arial, sans-serif;font-size:14px;padding:10px 5px;border-style:solid;border-width:0px;overflow:hidden;word-break:normal;border-color:#ccc;color:#333;background-color:#fff;}
-.tg th{font-family:Arial, sans-serif;font-size:14px;font-weight:normal;padding:10px 5px;border-style:solid;border-width:0px;overflow:hidden;word-break:normal;border-color:#ccc;color:#333;background-color:#f0f0f0;}
-.tg .tg-uqo3{background-color:#efefef;text-align:center;vertical-align:top}
-.tg .tg-7fle{font-weight:bold;background-color:#efefef;text-align:center;vertical-align:top}
-.tg .tg-baqh{text-align:center;vertical-align:top}
-.tg .tg-amwm{font-weight:bold;text-align:center;vertical-align:top}
+<style>
+body {
+	
+	background-image: url('grunge_patterns.jpg');
+	background-attachment: fixed;
+	color: #333;
+}
+.box {
+	border-radius: 3px;
+	background: rgba(101, 101, 101, 0.7); margin: auto; padding: 12px;
+}
+.lightbox {
+	zoom: 1.5;
+	position: fixed;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	background: rgba(10, 10, 10, 0.8);
+	text-align: center;
+	margin: auto;
+	
+}
+div.horizontal {
+	display: flex;
+	justify-content: center;
+	height: 100%;
+}
+div.vertical {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	width: 100%;
+}
+::-webkit-input-placeholder {
+   color: #955;
+   text-align: center;
+}
+::-moz-placeholder {  
+   color: #955;
+   text-align: center;
+}
+:-ms-input-placeholder {  
+   color: #955;
+   text-align: center;
+}
 </style>
-<table class="tg" style="undefined;table-layout: fixed; width: 694px">
-<colgroup>
-<col style="width: 186px">
-<col style="width: 508px">
-</colgroup>
-  <tr>
-    <th class="tg-amwm">Project Name</th>
-    <th class="tg-baqh">Future-Oriented Benchmarking through Social Media Analysis</th>
-  </tr>
-  <tr>
-    <td class="tg-amwm">Team Member and Email Address</td>
-    <td class="tg-baqh">Harshil Haumeer <address><a href="mailto: hhaumeer2014@my.fit.edu"> hhaumeer2014@my.fit.edu</a></address></th>
-  </tr>
-  <tr>
-    <td class="tg-7fle">Faculty Sponsor</td>
-    <td class="tg-uqo3">Dr. Philip Chan <address><a href="mailto: pkc@cs.fit.edu"> pkc@cs.fit.edu</a></address></td>
-  </tr>
-</table>
 
- <hr color=#800000>
- 
- <br>
- 
- <h2 style="text-align:center;"><strong>
-<FONT COLOR="#708090"><U>FIRST SEMESTER</U></FONT></h1></h1></strong>
-<br>
-<hr color=#800000>
+<body>
+	
+	<div id="loginbox" class="lightbox" >
+		<div class="horizontal">
+			<div class="vertical">
+				<div class="box">				
+					<input style="margin: 16px; text-align: center;" id="password" type="password" placeholder="password" /> <br />
+					<button id="loginbutton" type="button">Enter</button>
+					<p id="wrongPassword" style="display: none">wrong password</p>
+				</div>
+			</div>
+		</div>
+	</div>
 
 
 
-<style type="text/css">
-.tg  {border-collapse:collapse;border-spacing:0;border-color:#ccc;border:none;margin:0px auto;}
-.tg td{font-family:Arial, sans-serif;font-size:14px;padding:10px 5px;border-style:solid;border-width:0px;overflow:hidden;word-break:normal;border-color:#ccc;color:#333;background-color:#fff;}
-.tg th{font-family:Arial, sans-serif;font-size:14px;font-weight:normal;padding:10px 5px;border-style:solid;border-width:0px;overflow:hidden;word-break:normal;border-color:#ccc;color:#333;background-color:#f0f0f0;}
-.tg .tg-uqo3{background-color:#efefef;text-align:center;vertical-align:top}
-.tg .tg-7fle{font-weight:bold;background-color:#efefef;text-align:center;vertical-align:top}
-.tg .tg-baqh{text-align:center;vertical-align:top}
-.tg .tg-amwm{font-weight:bold;text-align:center;vertical-align:top}
-</style>
-<table class="tg" style="undefined;table-layout: fixed; width: 693px">
-<colgroup>
-<col style="width: 215px">
-<col style="width: 507px">
-</colgroup>
-  <tr>
-    <th class="tg-amwm">Plan (Sep  6)</th>
-    <th class="tg-baqh"><a href="Project Plan.pdf" target="_blank"> Plan </a> , 
+	<script type="text/javascript" src="https://code.jquery.com/jquery-1.12.0.min.js"></script>
+	 
 
-    <a href="Future Oriented Benchmarking through social media analysis.ppsx" target="_blank">Presentation</a>
-</th>
+	 <script type="text/javascript" src="https://cdn.rawgit.com/chrisveness/crypto/master/sha1.js"></script>
 
+	<script type="text/javascript">
+	"use strict";
+	function loadPage(pwd) {
+		
+		var hash= pwd;
+		hash= Sha1.hash(pwd);
+		var url= hash + "/index.html";
+			
+		$.ajax({
+			url : url,
+			dataType : "html",
+			success : function(data) {
+				window.location= url;
+			},
+			error : function(xhr, ajaxOptions, thrownError) {
+			
+				parent.location.hash= hash;
+				//$("#wrongPassword").show();
+				$("#password").attr("placeholder","wrong password");
+				$("#password").val("");
+			}
+		});
+	}
+	 
+	$("#loginbutton").on("click", function() {
+		loadPage($("#password").val());
+	});
+	$("#password").keypress(function(e) {
+		if (e.which == 13) {
+			
+			loadPage($("#password").val());
+		}
+	});
+	$("#password").focus();
+		
+	</script>
 
-  </tr>
-  <tr>
-    <td class="tg-amwm">Milestone 1  (Oct 2) </td>
-    <td class="tg-baqh">  <a href="Requirements.pdf" target="_blank"> Requirements </a> , <a href="Design.pdf" target="_blank"> Design </a> , <a href="Test Plan.pdf" target="_blank"> Test Plan </a>, <a href="Milestone1.ppsx" target="_blank">Presentation, <a href="Progress Evaluation.pdf" target="_blank"> Progress Evaluation  </a> </td>
-  </tr>
-  <tr>
-    <td class="tg-7fle"> Milestone 2  (Oct 30)</td>
-    <td class="tg-uqo3"><a href="Milestone2.ppsx" target="_blank">Presentation, <a href="Progress Evaluation2.pdf" target="_blank">Progress Evaluation</td>
-  </tr>
-  <tr>
-    <td class="tg-amwm">Milestone 3 (Nov  27)</td>
-    <td class="tg-baqh"><a href="Milestone3.pptx" target="_blank">Presentation </a>, <a href="Progress Evaluation3.pdf" target="_blank">Progress Evaluation</td>
-  </tr>
-</table>
-
-
-
- <hr color=#800000>
- 
- <br>
-
- <h2 style="text-align:center;"><strong>
-<FONT COLOR="#708090"><U>SECOND SEMESTER</U></FONT></h1></h1></strong>
-<br>
-<hr color=#800000>
-
- <style type="text/css">
-.tg  {border-collapse:collapse;border-spacing:0;border-color:#ccc;border:none;}
-.tg td{font-family:Arial, sans-serif;font-size:18px;padding:18px 18px;border-style:solid;border-width:0px;overflow:hidden;word-break:normal;border-color:#ccc;color:#333;background-color:#fff;}
-.tg th{font-family:Arial, sans-serif;font-size:18px;font-weight:normal;padding:18px 5px;border-style:solid;border-width:0px;overflow:hidden;word-break:normal;border-color:#ccc;color:#333;background-color:#f0f0f0;}
-.tg .tg-uqo3{background-color:#efefef;text-align:center;vertical-align:top}
-.tg .tg-7fle{font-weight:bold;background-color:#efefef;text-align:center;vertical-align:top}
-.tg .tg-baqh{text-align:center;vertical-align:top}
-.tg .tg-amwm{font-weight:bold;text-align:center;vertical-align:top}
-</style>
-<table class="tg" style="undefined;table-layout: fixed; width: 696px">
-<colgroup>
-<col style="width: 215px">
-<col style="width: 509px">
-</colgroup>
-  <tr>
-    <th class="tg-amwm">Plan (Jan 17)</th> 
-    <th class="tg-baqh"><a href="Project Plan_2.pdf" target="_blank"> Plan </a> , 
-    <a href="Pro_plan.pdf" target="_blank">Presentation</a>
-  </tr>
-  <tr>
-    <td class="tg-amwm">Milestone 4  (Feb 12)</td>
-    <td class="tg-baqh"><a href="Milestone4.pptx" target="_blank">Presentation </a>, <a href="Milestone4.pdf" target="_blank">Presentation[PDF]</a> ,<a href="Progress Evaluation_5.pdf" target="_blank"> Progress Evaluation </a> </td>
-  </tr>
-  <tr>
-    <td class="tg-7fle">Milestone 5 (Mar 19)</td>
-    <td class="tg-uqo3"><a href="Showcase2018Poster_CS_CrystalAdvancedAnalytics.pptx" target="_blank">Poster</a>, <a href="Milestone5.pptx" target="_blank">Presentation </a>, <a href="Progress Evaluation5.pdf" target="_blank"> Progress Evaluation </a></td>
-  </tr>
-  <tr>
-    <td class="tg-amwm">Milestone 6 (Apr 16)</td>
-    <td class="tg-baqh"><a href="User Manual.pdf" target="_blank"> User Manual </a>, <a href="https://e.powtoon.com/pub/cc?_ri_=X0Gzc2X%3DYQpglLjHJlTQGlPzdJbJHMHGSsHPisBICzadcbXtXaNeiqCyR43zb4fgf0ygqSwVXtpKX%3DSSSAT&_ei_=EiwT4nvPqVnq_hUVilXClkY_kQUpYDoINw6eynkL4KDUKPbVfXmup5cFE4yoAWwMcO92G9TeQko6qmQXMFBEv0A4glfksWgABTokrFTN6iEEN2J5rSJ8AUkP5uefgF4xHZqZx8MkxuDhUn2tH6MPmu48PCxV12_ZSVV9CoRwwJYFQ9TWnQmehTou." target="_blank">Demo Video </a>,<a href="https://www.youtube.com/watch?v=oZ__f107stA&t=90s" target="_blank"> Website Demo </a>, <a href="Milestone6.pptx" target="_blank"> Presentation </a>, <a href="Progress Evaluation6.pdf" target="_blank"> Progress Evaluation </a></td>
-  </tr>
-</table>
-
-<br>
-<br>
- <br>
- <br>
-    
- <br>
- 
 </body>
 </html>
-
